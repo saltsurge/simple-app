@@ -107,11 +107,11 @@
   </target>
 
   <!-- ====================================================================== -->
-  <!-- Run all tests                                                          -->
+  <!-- Run all tests                      , junit-missing                                    -->
   <!-- ====================================================================== -->
 
   <target name="test" 
-          depends="compile-tests, junit-missing" 
+          depends="compile-tests"
           unless="junit.skipped" 
           description="Run the test cases">
     <mkdir dir="${maven.test.reports}"/>
