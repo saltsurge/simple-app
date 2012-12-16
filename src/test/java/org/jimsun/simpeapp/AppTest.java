@@ -40,4 +40,9 @@ public class AppTest
     {
         assertFalse( false );
     }
+
+    public void testAppFalse2()
+    {
+        assertFalse( false );
+    }
 }
